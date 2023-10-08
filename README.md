@@ -1,8 +1,8 @@
-<h1>Summary</h1> 
+# Summary  
 
 This notebook is based on the notebook from the Udemy course "Complete ML & Data Science Bootcamp 2023." This Notebook is included in this project as "end-to-end-heart-disease-classification.ipynb"
 
-The goal of this notebook is to correctly determine if a patient has heart disease based on certain information such as age, sex, chest pain type, cholesterol. Here we are following the same methodology as the course but using a different dataset to compare to the dataset used by the original project. The data set(s) are collected from the UCI ML Repository.  
+The goal of this notebook is to correctly determine if a patient has heart disease based on certain information such as age, sex, chest pain type, and cholesterol. Here we are following the same methodology as the course but using a different dataset to compare to the dataset used by the original project. The data set(s) are collected from the UCI ML Repository.  
 
 The model used for all experiments was "LogisticRegression."
 
@@ -15,15 +15,15 @@ The best experiment based on Precision is the New/Full dataset with some columns
 The score is 74.31% vs 70.73% of the original data set.  
 
 
-<h1>How to Run</h1>
+# How to Run  
 1. Download the most recent version of this project
-2. Ensure conda and Jupyter is installed on your system
-3. Create a new conda enviroment from the env.yml file
-4. Activate the conda enviroment and run the command `jupyter lab` or `jupyter notebook`
+2. Ensure Conda and Jupyter is installed on your system
+3. Create a new conda environment from the env.yml file
+4. Activate the conda environment and run the command `jupyter lab` or `jupyter notebook`
 5. Run the Notebook!
 
-<h1>Extension</h1>
+# Extension  
 
-This is a work in progress, the next step is to compare the TP, TN, FP and FN counts.  
+This is a work in progress, the next step is to compare the TP, TN, FP, and FN counts.  
 
 A possible extension to this is to find a different model to train to try to get better results or to try transfer learning.  
